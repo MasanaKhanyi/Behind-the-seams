@@ -7,7 +7,26 @@ import styled from "styled-components";
 import Button from "../Button/Button";
 import { add, plus } from "@/app/utils/Icons";
 
-function CreateContent({ projectData, closeModal }) {
+interface ProjectData {
+  id: any;
+  title: string;
+  description: string;
+  materials: string[];
+  date: string;
+  completed: boolean;
+  important: boolean;
+  // Add any other fields that `projectData` might contain
+}
+
+type CloseModalFunction = () => void;
+
+function CreateContent({
+  projectData,
+  closeModal,
+}: {
+  projectData: ProjectData;
+  closeModal: CloseModalFunction;
+}) {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
   const [materials, setMaterials] = useState<string[]>([]);
@@ -23,7 +42,7 @@ function CreateContent({ projectData, closeModal }) {
       setDescription(projectData.description);
       setMaterials(projectData.materials);
       setDate(projectData.date);
-      setCompleted(projectData.isCompleted);
+      setCompleted(projectData.completed);
       setImportant(projectData.important);
     } else {
       // Reset form when creating a new project

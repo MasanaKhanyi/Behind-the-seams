@@ -1,0 +1,1 @@
+"use strict";exports.id=667,exports.ids=[667],exports.modules={8667:(e,s,t)=>{let i;t.d(s,{Z:()=>r}),i=new(t(3524)).PrismaClient;let r=i}};

@@ -1,0 +1,12 @@
+{
+  "/_not-found": "app/_not-found.js",
+  "/api/projects/[id]/route": "app/api/projects/[id]/route.js",
+  "/api/projects/route": "app/api/projects/route.js",
+  "/completed/page": "app/completed/page.js",
+  "/incomplete/page": "app/incomplete/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/important/page": "app/important/page.js",
+  "/signin/page": "app/signin/page.js",
+  "/signup/page": "app/signup/page.js"
+}
