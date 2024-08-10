@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Here's a template for your README file:
 
-## Getting Started
+---
 
-First, run the development server:
+# 🧵 Sewing Project Organizer - Behind the Seams
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Welcome to **Behind the Seams**, a web application designed to help sewing enthusiasts organize their projects. Keep track of your sewing projects, materials, and progress all in one place.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Check out the live demo of the app [here](https://behind-the-seams.vercel.app).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 📖 Features
 
-## Learn More
+- **Create Projects:** Add new sewing projects with details like title, description, materials, and due date.
+- **Manage Projects:** Edit or delete existing projects to keep your project list up to date.
+- **Categorize Projects:** Filter projects by their status, such as completed, important, or incomplete.
+- **Track Materials:** Maintain a list of materials needed for each project.
+- **User Authentication:** Sign up and sign in to save your projects securely.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Frontend:** Next.js, React, Tailwind CSS
+- **Backend:** Next.js API Routes, Prisma, MongoDB
+- **Deployment:** Vercel
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 📦 Getting Started
 
-## Deploy on Vercel
+To get a local copy up and running, follow these simple steps.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Prerequisites
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/MasanaKhanyi/Behind-the-seams.git
+   cd behind-the-seams
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables:**
+
+   Create a `.env.local` file in the root directory and add the following variables:
+
+   ```plaintext
+   DATABASE_URL=your_mongodb_connection_string
+   NEXTAUTH_URL=http://localhost:3000
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the app in action.
+
+## 🔄 Deployment
+
+The app is automatically deployed on Vercel. 
+
+
+---
