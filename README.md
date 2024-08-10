@@ -45,16 +45,7 @@ To get a local copy up and running, follow these simple steps.
    npm install
    ```
 
-3. **Set up environment variables:**
-
-   Create a `.env.local` file in the root directory and add the following variables:
-
-   ```plaintext
-   DATABASE_URL=your_mongodb_connection_string
-   NEXTAUTH_URL=http://localhost:3000
-   ```
-
-4. **Run the development server:**
+3. **Run the development server:**
    ```bash
    npm run dev
    ```
